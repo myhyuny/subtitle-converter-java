@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'myhyuny.subtitle'
+version '0.7.0'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+jar {
+    manifest {
+        attributes  'Title': 'Subtitle Converter', 'Version': '1.0', 'Main-Class': 'myhyuny.subtitle.Application'
+    }
+    archiveName 'sc.jar'
+}

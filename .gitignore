@@ -1,0 +1,10 @@
+/.git
+/.idea
+/.vscode
+/.gradle
+/gradle
+/bin
+/build
+/out
+*.nosync
+.DS_Store
